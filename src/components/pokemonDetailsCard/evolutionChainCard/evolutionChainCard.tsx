@@ -5,7 +5,7 @@ import PokemonCard from '../../pokemonCard/pokemonCard';
 import rightArrowIcon from '../../../assets/icons/right-arrow.png';
 
 // Define an interface for the component props
-interface EvolutionChainCardProps {
+export interface EvolutionChainCardProps {
   data: any;
 }
 

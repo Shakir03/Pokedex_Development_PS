@@ -4,7 +4,7 @@ import { numberFormation } from '../../services/common.service';
 import './pokemonCard.scss';
 
 // Define an interface for the component props
-interface PokemonCardProps {
+export interface PokemonCardProps {
   data: any;
   onClick?: () => void;
   className?: string;

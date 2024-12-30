@@ -2,7 +2,7 @@ import React from 'react';
 import { Loader } from 'rsuite';
 
 // Define an interface for the component props
-interface ApploaderProps {
+export interface ApploaderProps {
   className?: string;
 }
 

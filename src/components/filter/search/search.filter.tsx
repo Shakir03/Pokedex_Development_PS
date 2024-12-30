@@ -4,7 +4,7 @@ import { Input, InputGroup } from 'rsuite';
 import SearchIcon from '@rsuite/icons/Search';
 
 // Define an interface for the component props
-interface SearchFilterProps {
+export interface SearchFilterProps {
   placeholder?: string;
   inputClass?: string;
   onChangeHandler: (value: string, event: React.SyntheticEvent) => void;

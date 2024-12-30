@@ -8,7 +8,7 @@ interface PokemonDataType {
   url: string;
 }
 
-interface AppMultiSelectDropDownProps {
+export interface AppMultiSelectDropDownProps {
   label: string;
   onChangeHandler: (value: any[], event: React.SyntheticEvent) => void;
   data: PokemonDataType[];

@@ -10,7 +10,7 @@ import AppMultiSelectDropDown from './multiSelectdropDown/multiSelectdropDown';
 import SearchFilter from './search/search.filter';
 
 // Define an interface for the component props
-interface AppFilterProps {
+export interface AppFilterProps {
   isFilterEnable: (enabled: boolean) => void;
 }
 

@@ -3,7 +3,7 @@ import { getPokcolor } from '../../../constants/pokemon.types';
 import './colorfulTags.scss';
 
 // Define an interface for the component props
-interface ColorfulTagProps {
+export interface ColorfulTagProps {
   text: string;
   className?: string;
   type: any; // Adjust this type if you have a more specific type for 'type'

@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import './header.scss';
 
 // Define an interface for the component props
-interface HeaderProps {
+export interface HeaderProps {
   children: ReactNode;
   className?: string;
 }

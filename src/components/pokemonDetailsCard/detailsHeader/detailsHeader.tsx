@@ -10,7 +10,7 @@ import './detailsHeader.scss';
 import '../../../styles/common.scss';
 
 // Define an interface for the component props
-interface DetailsHeaderProps {
+export interface DetailsHeaderProps {
   data: any;
   speciesData: any;
   backClick: () => void;
