@@ -1,9 +1,11 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Pokedex', async () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  await new Promise((resolve) => setTimeout(resolve, 3000)); //3 sec delay
+  await waitFor(() => {
+    const pokedex = screen.getByText(/Pokédex/i);
+    expect(pokedex).toBeInTheDocument();
+  });
 });
